@@ -1,0 +1,53 @@
+{
+  "$schema": "https://schema.management.QdxEdu.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "environmentName": {
+      "value": "${QdxEdu_ENV_NAME}"
+    },
+    "resourceGroupName": {
+      "value": "${QdxEdu_RESOURCE_GROUP}" 
+    },
+    "virtualMachineSize": {
+      "value": "${QdxEdu_ENV_VIRTUALMACHINESIZE}"
+    },
+    "virtualMachineName": {
+      "value": "${QdxEdu_ENV_VIRTUALMACHINENAME}"
+    },
+    "adminUsername": {
+      "value": "${QdxEdu_ENV_ADMINUSERNAME}"
+    },
+    "adminPasswordOrKey": {
+      "value": "${QdxEdu_ENV_ADMINPASSWORDORKEY}"
+    },
+    "authenticationType": {
+      "value": "${QdxEdu_ENV_AUTHENTICATIONTYPE}"
+    },
+    "arcK8sClusterName": {
+      "value": "${QdxEdu_ENV_ARCK8SCLUSTERNAME}"
+    },
+    "customLocationRPSPID":{
+      "value": "${QdxEdu_ENV_CUSTOMLOCATIONRPSPID}"
+    },
+    "spAppId": {
+      "value": "${QdxEdu_ENV_SPAPPID}"
+    },
+    "spAppObjectId": {
+      "value": "${QdxEdu_ENV_SPAPPOBJECTID}"
+    },
+    "spObjectId": {
+      "value": "${QdxEdu_ENV_SPOBJECTID}"
+    },
+    "spSecret": {
+      "value": "${QdxEdu_ENV_SPSECRET}"
+    },
+    "tags": {
+      "value": {
+        "Owner": "AI Team",
+        "Project": "AIOEdgeAI",
+        "Environment": "Dev",
+        "Toolkit": "Bicep"
+      }
+    }
+  }
+}
