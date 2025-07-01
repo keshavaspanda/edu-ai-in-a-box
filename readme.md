@@ -43,7 +43,7 @@ The institution copilot on the Edge can leverages data processing in the institu
 ## Architecture
 The core solution runs on an Ubuntu-based virtual machine using K3s. Alternatively, you can deploy this solution to a dedicated hybrid edge device, allowing the machine learning model to operate closer to your equipment.
 
-![qhc with AI](/readme_assets/qhcedgeaiQHChitecture.png) 
+![qhc with AI](/readme_assets/qhcedgeaiarchitecture.png) 
 
 ![qhc with AI](/readme_assets/qhcedgeaisolutionoverview.png) 
 
