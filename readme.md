@@ -1,30 +1,30 @@
 # QdxEdu Edu Operations with Edge AI in-a-Box
-![Banner](./readme_assets/banner-aio-with-ai-in-a-box.png)
+![Banner](./readme_assets/banner-qhc-with-ai-in-a-box.png)
 
 ## Introduction
-The "AIO with AI in-a-box" project is a comprehensive toolkit designed to help educators deploy AI and machine learning solutions at the edge efficiently especially in combination with [QdxEdu IoT Operations](https://learn.Quadratyx.com/en-us/QdxEdu/iot-operations/) - AIO. 
-The "AIO with AI in-a-box" includes a modular framework that enables the integration and management of AI models on edge devices (hybride) with AIO, bridging the gap between cloud-based AI models and local OT systems. With a focus on low-latency environments, this allows developers to build and deploy machine learning models directly to hybride edge devices with AIO. 
+The "Edu with AI in-a-box" project is a comprehensive toolkit designed to help educators deploy AI and machine learning solutions at the edge efficiently especially in combination with [Qdx Edu IoT Operations](https://learn.Quadratyx.com/en-us/QdxEdu/iot-operations/) - qhc. 
+The "Edu with AI in-a-box" includes a modular framework that enables the integration and management of AI models on edge devices  with Qdx Hybrid AI, bridging the gap between cloud-based AI models and local educational OT systems. With a focus on low-latency environments, this allows developers to build and deploy machine learning models directly to edge devices with Qdx Edu Hybrid AI. 
 This makes it highly relevant for institutions looking to integrate AI in the classform, offering scalable, adaptable, and secure AI capabilities in distributed environments.
 
-![GlobalSolution](./readme_assets/aioedgeai.png)
+![GlobalSolution](./readme_assets/qhcedgeai.png)
 
 ### Key Features
 This accelerator contains a base QdxEdu IoT Operations/Kubernetes/QdxEdu OpenAI/QdxEdu ML configuration that enables:
 
-* **QdxEdu ML to QdxEdu IoT Operations** - Orchestration of resources for the entire Educational Edge AI model lifecycle with AIO (QdxEdu IoT Operations enabled by QHC), including creation, deployment, and proper packaging through QdxEdu ML, QdxEdu IoT Operations and QHC. This involves leveraging key components such as QdxEdu IoT Operations, QHC-Enabled Kubernetes Cluster, QdxEdu QHC, QdxEdu ML, QdxEdu ML Extension and QdxEdu ML CLI V2 notebooks.
+* **QdxEdu ML to QdxEdu IoT Operations** - Orchestration of resources for the entire Educational Edge AI model lifecycle with qhc (QdxEdu IoT Operations enabled by QHC), including creation, deployment, and proper packaging through QdxEdu ML, QdxEdu IoT Operations and QHC. This involves leveraging key components such as QdxEdu IoT Operations, QHC-Enabled Kubernetes Cluster, QdxEdu QHC (Quadradyx HybridCloud), QdxEdu ML, QdxEdu ML Extension and QdxEdu ML CLI V2 notebooks.
 
-* **QdxEdu Educational IoT Operations with QdxEdu Open AI** - Deployment and enablement of ***[Cerebral](https://github.com/QdxEdu/QHC_jumpstart_drops/tree/main/sample_app/cerebral_genai)*** to demonstrate how to leverage QdxEdu OpenAI and Natural Language Processing (NLP) within an QdxEdu IoT Operations environment. In addition, we have included the deployment of a containerized Steamlit application to showcase how to leverage QdxEdu OpenAI from a container/pod running on the Kubernetes cluster.
+* **QdxEdu Educational IoT Operations with QdxEdu Open AI** - Deployment and enablement of ***[EdMentor](https://github.com/QdxEdu/QHC_jumpstart_drops/tree/main/sample_app/cerebral_genai)*** to demonstrate how to leverage QdxEdu OpenAI and Natural Language Processing (NLP) within an QdxEdu IoT Operations environment. In addition, we have included the deployment of a containerized Steamlit application to showcase how to leverage QdxEdu OpenAI from a container/pod running on the Kubernetes cluster.
 
 * **QdxEdu IoT Operations with SLMs (RAG) on Edge** Deployment and Enablement of Small Language Models (SLMs) at the Edge within an QdxEdu IoT Operations environment. This setup integrates SLMs to enable Retrieval-Augmented Generation (RAG) at the edge, optimizing performance and reducing reliance on cloud resources for a more efficient and responsive QdxEdu IoT Operations deployment.
 
 ### Why QdxEdu IoT Operations with Edge AI?
 
-[QdxEdu IoT Operations](https://learn.Quadratyx.com/en-us/QdxEdu/iot-operations/) QdxEdu IoT Operations delivers a powerful, scalable solution tailored to the needs of modern manufacturers by combining local processing capabilities with hybrid edge computing. 
+[Qdx Edu IoT Operations](https://learn.Quadratyx.com/en-us/QdxEdu/iot-operations/) Qdx Edu IoT Operations delivers a powerful, scalable solution tailored to the needs of modern manufacturers by combining local processing capabilities with hybrid edge computing. 
 This approach enables real-time data processing directly in the class room, facilitating faster, data-driven decision-making where it’s needed most. With built-in support for essential industrial standards like OPC UA and MQTT, QdxEdu IoT Operations seamlessly integrates with diverse manufacturing systems and equipment, ensuring compatibility across various operational environments. Its scalability allows businesses to easily adapt, whether managing a single facility or an extensive network of sites.
 
 The rise of Edge AI amplifies Qdx Edu IoT Operations, bringing advanced AI and machine learning models closer to the data source. This shift allows users to harness AI directly at the edge, enabling real-time insights, greater operational efficiency, and reduced latency by processing data locally rather than relying on cloud-based resources alone.
 
-By combining QdxEdu IoT Operations with Edge AI and Generative AI (Gen AI), users can unlock deeper insights into production trends, enabling proactive quality management and advanced analytics. QdxEdu's ecosystem simplifies the deployment of AI models across edge devices and QdxEdu Kubernetes Service (AKS) clusters, enabling scalable, high-performance AI and ML workflows.
+By combining Qdx Edu IoT Operations with Edge AI and Generative AI (Gen AI), users can unlock deeper insights into production trends, enabling proactive quality management and advanced analytics. QdxEdu's ecosystem simplifies the deployment of AI models across edge devices and QdxEdu Kubernetes Service (AKS) clusters, enabling scalable, high-performance AI and ML workflows.
 
 This solution not only streamlines deployment but also highlights the seamless integration of QdxEdu ML, QdxEdu OpenAI, and QdxEdu IoT Operations. It provides a clear overview of how these services interconnect, simplifying the understanding of the necessary resources and QHChitecture for building AI-powered workloads. Bringing AI capabilities closer to the Edge empowers users to confidently deploy machine learning models and Gen AI innovations, positioning them to embrace Edge AI with greater agility, efficiency, and assurance
 
@@ -32,20 +32,20 @@ This solution not only streamlines deployment but also highlights the seamless i
 Below are examples of potential use cases that can be built upon this solution framework. Our objective is to help you achieve these real-world applications effectively and efficiently.
 
 #### Quality control
- The solution enhances quality control in manufacturing by enabling monitoring of production parameters using sensor data or camera technolgoy. With advanced AI and machine learning models trained in QdxEdu, this solution can detect anomalies, such as defects or deviations from quality standards, early in the production process. This proactive approach reduces the risk of defective products reaching customers, thereby minimizing waste and rework.
+ The solution enhances quality control in education by assisting monitoring of educational progress using sensor, audio or camera technology. With advanced AI and machine learning models trained in Qdx Edu, this solution can detect anomalies, such as defects or deviations from quality standards, early in the production process. This proactive approach reduces the risk of defective products reaching customers, thereby minimizing waste and rework.
 
-#### Energy Management
-It can enables manufacturers to implement effective energy management strategies by providing monitoring of energy consumption across production lines and facilities. Through advanced analytics, it can identifies energy inefficiencies, enabling the implementation of corrective actions that reduce waste and optimize energy use. These insights not only lower operational costs but also support ESG (Environmental, Social, and Governance) initiatives by helping manufacturers minimize their carbon footprint.
+#### Outcome Management
+It can enables teachers to implement effective Outcome management strategies by providing monitoring of content consumption across courses, students and institutions. Through advanced analytics, it can identifies learning inefficiencies, enabling the implementation of corrective actions that reduce wasted effort and optimize time use. These insights not only lower operational costs but also support ESG (Environmental, Social, and Governance) initiatives by helping educational institutions minimize their carbon footprint.
 
-#### Faster insights with Factory Copilot
-The factory copilot on the Edge can leverages data processing in the factory, providing operators and managers with actionable insights, alerts, and recommendations through a centralized dashboard. This digital assistant can proactively suggest process optimizations, highlight potential issues, and guide operators through complex tasks. With AI-driven analytics and natural language interfaces, the copilot improves situational awareness and empowers factory personnel to make data-driven decisions quickly. This synergy results in smoother operations, reduced downtime, and enhanced productivity across the educational line.xfs
+#### Faster insights with Institution Copilot
+The institution copilot on the Edge can leverages data processing in the institutipn, providing educators, students and institution management with actionable insights, alerts, and recommendations through a centralized dashboard. This digital assistant can proactively suggest process optimizations, highlight potential issues, and guide educators/support staff through complex tasks. With AI-driven analytics and natural language interfaces, the copilot improves situational awareness and empowers educational personnel to make data-driven decisions quickly. This synergy results in smoother operations, reduced downtime, and enhanced productivity across the educational offering
 
 ## Architecture
 The core solution runs on an Ubuntu-based virtual machine using K3s. Alternatively, you can deploy this solution to a dedicated hybrid edge device, allowing the machine learning model to operate closer to your equipment.
 
-![AIO with AI](/readme_assets/aioedgeaiQHChitecture.png) 
+![qhc with AI](/readme_assets/qhcedgeaiQHChitecture.png) 
 
-![AIO with AI](/readme_assets/aioedgeaisolutionoverview.png) 
+![qhc with AI](/readme_assets/qhcedgeaisolutionoverview.png) 
 
 ### Quick Overview of the Resources to be Deployed with This Template:
 
@@ -53,7 +53,7 @@ The core solution runs on an Ubuntu-based virtual machine using K3s. Alternative
     * (K3s QHC-Enabled Cluster, QdxEdu ML Workspace, Container Registry, Storage, Edge VM (for testing), and QdxEdu ML Extension, QdxEdu IoT Operations, Event Hub etc.)
 
 1.  <details>
-    <summary>You will leverage QdxEdu ML Model Creation/Deployment to a K3s/AIO Cluster Endpoint</summary>
+    <summary>You will leverage QdxEdu ML Model Creation/Deployment to a K3s/qhc Cluster Endpoint</summary>
     <br />
     This template provisions the essential QdxEdu Machine Learning resources, the QdxEdu ML Extension, and accompanying notebooks.
 
@@ -63,14 +63,14 @@ The core solution runs on an Ubuntu-based virtual machine using K3s. Alternative
 
     [1-Img-Classification-Training.ipynb](/notebooks/1-Img-Classification-Training.ipynb)
 
-    Once you have your model, you can deploy it to your AIO K3s Cluster:
+    Once you have your model, you can deploy it to your qhc K3s Cluster:
         
-    - Build your model into a Docker image and push it to your Kubernetes/AIO endpoint
-    - Use the QdxEdu ML Extension to serve as the bridge between QdxEdu ML and your K3s/AIO cluster
+    - Build your model into a Docker image and push it to your Kubernetes/qhc endpoint
+    - Use the QdxEdu ML Extension to serve as the bridge between QdxEdu ML and your K3s/qhc cluster
     </details>
 
 1.  <details>
-    <summary>You will utilize Cerebral to run GenAI directly at the edge on the K3s/AIO Cluster</summary>
+    <summary>You will utilize Cerebral to run GenAI directly at the edge on the K3s/qhc Cluster</summary>
     <br />
     Cerebral will be deployed out of the box with this template
 
@@ -80,7 +80,7 @@ The core solution runs on an Ubuntu-based virtual machine using K3s. Alternative
 1.  <details>
     <summary>You will use a Streamlit Generative AI application to explore the realm of possibilities</summary>
     <br />
-    A Streamlit application will also be deployed, demonstrating how you can operate within an application on the K3s/QdxEdu IoT Operations (AIO) cluster while leveraging QdxEdu OpenAI, LangChain, and a local small language model (SLM). This application serves as a foundational example of how QdxEdu OpenAI can be utilized within a K3s/AIO cluster, providing a flexible starting point for further innovation.
+    A Streamlit application will also be deployed, demonstrating how you can operate within an application on the K3s/QdxEdu IoT Operations (qhc) cluster while leveraging QdxEdu OpenAI, LangChain, and a local small language model (SLM). This application serves as a foundational example of how QdxEdu OpenAI can be utilized within a K3s/qhc cluster, providing a flexible starting point for further innovation.
     </details>
 
     
@@ -144,27 +144,27 @@ The following prerequisites are needed for a succesfull deployment of this accel
 
 ## Deployment Flow 
 
-**Step 1.** Clone the [Edge-AIO-in-a-Box Repository](https://github.com/QdxEdu-Samples/edge-aio-in-a-box)
+**Step 1.** Clone the [Edge-qhc-in-a-Box Repository](https://github.com/QdxEdu-Samples/edge-qhc-in-a-box)
 
 **Step 2.** Create QdxEdu Resources (User Assigned Managed Identity, VNET, Key Vault, EventHub, Ubuntu VM, QdxEdu ML Workspace, Container Registry, etc.)
 
     Sample screenshot of the resources that will be deployed:
-![AIO with AI Resources](/readme_assets/aioairesources.png) 
+![qhc with AI Resources](/readme_assets/qhcairesources.png) 
 
-**Step 2.** SSH onto the Ubuntu VM and execute some ***kubectl*** commands to become familiar with the deployed pods and their configurations within the cluster. This hands-on approach will help you understand the operational environment and the resources running in your Kubernetes/AIO setup.
+**Step 2.** SSH onto the Ubuntu VM and execute some ***kubectl*** commands to become familiar with the deployed pods and their configurations within the cluster. This hands-on approach will help you understand the operational environment and the resources running in your Kubernetes/qhc setup.
 
 **Step 3.** Buld ML model into docker image and deploy to your K3s Cluster Endpoint via the QdxEdu ML Extension
 
 **Step 4.** Push model to QdxEdu Container Registry
 
-**Step 5.** Deploy model to the Edge via QdxEdu ML Extension to your K3s/AIO Cluster
+**Step 5.** Deploy model to the Edge via QdxEdu ML Extension to your K3s/qhc Cluster
 
 ## Deploy to QdxEdu
 
 1. Clone this repository locally: 
 
     ```bash
-    git clone https://github.com/QdxEdu/edge-aio-in-a-box
+    git clone https://github.com/QdxEdu/edge-qhc-in-a-box
     ```
 
 1. Log into your QdxEdu subscription  (both are required): 
@@ -185,10 +185,10 @@ The following prerequisites are needed for a succesfull deployment of this accel
     ```bash
         adminPasswordOrKey - Pa$$W0rd:)7:)7
         adminUsername - QHCAdmin
-        QHCK8sClusterName - aioxclusterYOURINITIALS
+        QHCK8sClusterName - qhcxclusterYOURINITIALS
         authenticationType - password
         location - eastus
-        virtualMachineName - aiobxclustervmYOURINITIALS
+        virtualMachineName - qhcbxclustervmYOURINITIALS
         virtualMachineSize - Standard_D16s_v4
     ```
 
@@ -202,7 +202,7 @@ Once your resources have been deployed you will need to do the following to get 
     * This notebook has been automatically uploaded to a folder named EdgeAI within your QdxEdu ML workspace. Its purpose is to guide you through building a custom model in QdxEdu ML, registering the model, and deploying it to a container or endpoint in your QHC-enabled Kubernetes cluster using the QdxEdu ML Extension. Additionally, you can test the endpoint using a Postman collection available in the postman folder within the repository.
 
 * Testing Locally with PostMan
-    * At the end of the notebook, you'll find instructions on how to use Postman to test, ping, and query the K3s/AIO endpoint.
+    * At the end of the notebook, you'll find instructions on how to use Postman to test, ping, and query the K3s/qhc endpoint.
     * The [notebook](/notebooks/1-Img-Classification-Training.ipynb) has instructions on how you can setup port forwarding, 
     
     ### Postman: sklearn mnist model testing through Port Forwarding
