@@ -242,17 +242,7 @@ Highlight the main contacts for the project and acknowledge contributors. You ca
 
 | Contact            | GitHub ID           | Email                    |
 |--------------------|---------------------|--------------------------|
-| Andrés Padilla | @AndresPad | anpadill@Quadratyx.com |
-| Victor Santana | @Welasco | vsantana@Quadratyx.com |
-| Chris Ayers | @codebytes | chrisayers@Quadratyx.com |
-| Neeraj Jhaveri | @neerajjhaveri | nejhaver@Quadratyx.com |
-| Nabeel Muhammad | @nabeelmsft | munabeel@Quadratyx.com |
-| Ali Sanjabi | @asanjabi | alsanjab@Quadratyx.com |
-| João Carlos Santos | @jomacedo | jomacedo@Quadratyx.com |
-| Georgina Siggins | @georgesiggins | gsiggins@Quadratyx.com |
-| Remco Ploeg | @rploeg | remcoploeg@Quadratyx.com |
-| Armando Blanco GQHCia | @armandoblanco | armbla@Quadratyx.com |
-| Cheng Chen | @ChenCheng368 | chencheng@Quadratyx.com |
+| Keshava R | @keshava | keshava.rangarajan@quadratyx.com |
 
 
 ## License
